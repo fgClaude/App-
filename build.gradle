@@ -1,0 +1,25 @@
+{
+    "applicationId": "com.aaappps.sigaraicme",
+    "versionCode": 1,
+    "versionName": "1.0",
+    "compileSdkVersion": 33,
+    "minSdkVersion": 21,
+    "targetSdkVersion": 33,
+    "buildToolsVersion": "33.0.0",
+    "dependencies": [
+        "androidx.appcompat:appcompat:1.6.1",
+        "androidx.core:core:1.9.0",
+        "androidx.cardview:cardview:1.0.0",
+        "com.google.android.material:material:1.8.0"
+    ],
+    "permissions": [
+        "android.permission.POST_NOTIFICATIONS",
+        "android.permission.WAKE_LOCK"
+    ],
+    "features": {
+        "notifications": true,
+        "background": true,
+        "animations": true,
+        "cards": true
+    }
+}
